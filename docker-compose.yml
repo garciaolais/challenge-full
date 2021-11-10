@@ -5,13 +5,8 @@ services:
     ports:
       - 3000:3000
     stdin_open: true
-    volumes:
-      - ./frontend:/usr/src/app
-      - /usr/src/app/node_modules
     container_name: frontend
     restart: always
-    networks:
-      - challenge
     depends_on:
       - backend
 
@@ -19,14 +14,7 @@ services:
     container_name: backend
     restart: always
     build: backend
-    volumes:
-      - ./backend:/usr/src/app
-      - /usr/src/app/node_modules
-    networks:
-      - challenge
     ports:
       - 1986:1986
     expose: 
       - 1986
-networks:
-  challenge:
