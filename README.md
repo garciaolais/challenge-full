@@ -17,7 +17,7 @@ https://user-images.githubusercontent.com/14133711/141163375-0b7ceb31-1c95-49fc-
 
 ```shell
 git clone https://github.com/garciaolais/challenge-full.git
-cd challange-full
+cd challenge-full
 docker-compose up -d
 ```
 
