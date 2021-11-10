@@ -1,6 +1,6 @@
 ## Challenge Demo
 
-This is a simple demo to show the functionality of the libraray [challengelib](https://github.com/garciaolais/challenge-backend).
+This is a simple demo to show the functionality of the library [challengelib](https://github.com/garciaolais/challenge-backend).
 
 This demo have two components
 
