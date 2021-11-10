@@ -13,3 +13,12 @@ This demo have two components
 
 https://user-images.githubusercontent.com/14133711/141163375-0b7ceb31-1c95-49fc-9a64-65aa148791b0.mp4
 
+## Getting Started
+
+```shell
+git clone https://github.com/garciaolais/challenge-full.git
+cd challange-full
+docker-compose up -d
+```
+
+Open in a browser http://localhost:3000
